@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.NotificationEditSegment app:rowCount="4" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/notifications_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preference_edit_color_header" app:layout_row="0" app:layout_column="0" style="@style/Preference.GroupHeader" />
+    <LinearLayout android:orientation="vertical" android:id="@id/notification_layout" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" app:layout_row="1" app:layout_column="0" />
+    <TextView android:id="@id/add_notification_button" android:paddingLeft="24.0dip" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_notification_label" android:paddingStart="24.0dip" app:layout_row="2" app:layout_column="0" style="@style/Edit.Text.Light" />
+    <View app:layout_row="3" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Edit.Divider"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.android.calendar.event.edit.segment.NotificationEditSegment>

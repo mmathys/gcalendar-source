@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/frequency_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groove_frequency_title" style="@style/GrooveCreationWizardTitle" />
+    <Button android:id="@id/one_time_per_week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groove_frequency_one_time_per_week" style="@style/GrooveCreationWizardButton" />
+    <Button android:id="@id/two_times_per_week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groove_frequency_two_times_per_week" style="@style/GrooveCreationWizardButton" />
+    <Button android:id="@id/three_times_per_week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groove_frequency_three_times_per_week" style="@style/GrooveCreationWizardButton" />
+    <Button android:id="@id/five_times_per_week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groove_frequency_five_times_per_week" style="@style/GrooveCreationWizardButton" />
+    <Button android:id="@id/every_day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/every_day" style="@style/GrooveCreationWizardButton" />
+</merge>

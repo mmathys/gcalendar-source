@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/info_action_close" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="@dimen/edit_segment_icon_width" android:layout_height="@dimen/edit_header_bar_height" android:src="@drawable/ic_cancel_white" android:contentDescription="@string/close_label" style="@style/Edit.HeaderButton" />
+    <include layout="@layout/event_info_overflow_button" />
+    <include layout="@layout/event_info_edit" />
+</merge>

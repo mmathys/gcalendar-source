@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.event.edit.segment.TaskDurationEditSegment app:rowCount="1" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Spinner android:id="@id/duration_spinner" android:paddingLeft="@dimen/edit_segment_icon_width" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_segment_icon_width" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+</com.google.android.calendar.event.edit.segment.TaskDurationEditSegment>

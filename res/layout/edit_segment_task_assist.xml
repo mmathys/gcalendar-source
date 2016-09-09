@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.event.edit.segment.TaskAssistEditSegment style="@style/EditSegmentLayout.Multiline"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" style="@style/Edit.Icon.Multiline" />
+    <TextView android:id="@id/value" style="@style/Edit.Text.Multiline.First" />
+    <TextView android:id="@id/detail" android:visibility="gone" style="@style/Edit.Text.Multiline.Second" />
+</com.google.android.calendar.event.edit.segment.TaskAssistEditSegment>

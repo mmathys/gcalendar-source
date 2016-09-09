@@ -1,0 +1,16 @@
+.class interface abstract Lio/grpc/internal/BackoffPolicy;
+.super Ljava/lang/Object;
+.source "BackoffPolicy.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lio/grpc/internal/BackoffPolicy$Provider;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract nextBackoffMillis()J
+.end method

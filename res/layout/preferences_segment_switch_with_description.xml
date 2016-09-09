@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.timely.settings.segments.SwitchEditSegment app:rowCount="2" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Preference.Edit.Label.WithBottomPadding">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:layout_gravity="fill_horizontal">
+            <TextView android:textColor="@color/preference_label" android:id="@id/switch_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/subhead_text_size" android:textColor="@color/setting_gray" android:layout_gravity="center_vertical" android:id="@id/switch_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <Switch android:layout_gravity="center_vertical" android:id="@id/switch_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View app:layout_row="1" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Edit.Divider"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.android.calendar.timely.settings.segments.SwitchEditSegment>

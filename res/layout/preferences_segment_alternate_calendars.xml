@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.timely.settings.segments.AlternateCalendarEditSegment android:importantForAccessibility="no" app:label_color="@color/preference_value" app:dropdown_label_color="@color/preference_label" app:rowCount="3" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

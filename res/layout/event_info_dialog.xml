@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calendar.timely.animations.EventInfoAnimationView android:id="@id/event_info_animation_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/event_info_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/event_info" />
+    </FrameLayout>
+</FrameLayout>

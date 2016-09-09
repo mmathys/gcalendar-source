@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/timely_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/edit_screen_header" android:background="@color/edit_text_light" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/segment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_gravity="end|center|top" android:id="@id/save" android:visibility="gone" android:text="@string/create_event_dialog_save" android:textAllCaps="true" style="@style/Edit.NewHeaderButton" />
+            <ImageButton android:layout_gravity="start|center|top" android:id="@id/cancel" android:visibility="gone" android:src="@drawable/ic_cancel_white" android:contentDescription="@string/edit_event_cancel" style="@style/Edit.NewHeaderButton" />
+        </FrameLayout>
+    </FrameLayout>
+    <ScrollView android:id="@id/segments_scroll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/segments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

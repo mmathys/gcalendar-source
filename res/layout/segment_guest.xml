@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/segment_title" android:layout_width="fill_parent" android:layout_height="@dimen/info_segment_single_height" android:importantForAccessibility="yes">
+        <ImageView android:src="@drawable/ic_guests" android:contentDescription="@string/describe_guests_icon" style="@style/InfoSegmentLabelIconFullI18n" />
+        <TextView android:id="@id/guest_count" style="@style/InfoTitleTextViewFullI18n" />
+    </FrameLayout>
+    <TextView android:id="@id/label_accepted" android:layout_below="@id/segment_title" style="@style/InfoGuestPartitionLabelI18n" />
+    <com.android.calendar.event.AttendeesView android:orientation="vertical" android:id="@id/status_accepted" android:layout_below="@id/label_accepted" style="@style/InfoAttendeeList" />
+    <TextView android:id="@id/label_declined" android:layout_below="@id/status_accepted" style="@style/InfoGuestPartitionLabelI18n" />
+    <com.android.calendar.event.AttendeesView android:orientation="vertical" android:id="@id/status_declined" android:layout_below="@id/label_declined" style="@style/InfoAttendeeList" />
+    <TextView android:id="@id/label_tentative" android:layout_below="@id/status_declined" style="@style/InfoGuestPartitionLabelI18n" />
+    <com.android.calendar.event.AttendeesView android:orientation="vertical" android:id="@id/status_tentative" android:layout_below="@id/label_tentative" style="@style/InfoAttendeeList" />
+    <TextView android:id="@id/label_none" android:layout_below="@id/status_tentative" style="@style/InfoGuestPartitionLabelI18n" />
+    <com.android.calendar.event.AttendeesView android:orientation="vertical" android:id="@id/status_none" android:layout_below="@id/label_none" style="@style/InfoAttendeeList" />
+</merge>

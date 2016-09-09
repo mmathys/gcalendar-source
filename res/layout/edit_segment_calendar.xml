@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.CalendarEditSegment app:rowCount="1" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/edit_segment_icon" android:src="@drawable/ic_calendar" android:contentDescription="@string/describe_calendar_icon" style="@style/Edit.Icon" />
+    <TextView android:gravity="center_vertical" android:id="@id/calendar_name" android:layout_width="0.0dip" android:textAlignment="viewStart" app:layout_row="0" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Text.Edit" />
+</com.android.calendar.event.edit.segment.CalendarEditSegment>

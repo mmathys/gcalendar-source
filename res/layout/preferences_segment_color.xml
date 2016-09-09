@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.ColorEditSegment app:label_color="@color/preference_value" app:dropdown_label_color="@color/preference_label" app:unlisted_color_label="@string/preference_unlisted_color_label" app:rowCount="3" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/color_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preference_edit_color_header" app:layout_row="0" app:layout_column="0" style="@style/Preference.Edit.Label" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-11.0dip" android:layout_marginBottom="3.0dip" app:layout_row="1" app:layout_column="0">
+        <Spinner android:id="@id/color_spinner" android:paddingLeft="24.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="24.0dip" style="@style/Edit.Spinner" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/color_icon" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" style="@style/Edit.Icon" />
+    </LinearLayout>
+    <View app:layout_row="2" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Edit.Divider"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.android.calendar.event.edit.segment.ColorEditSegment>

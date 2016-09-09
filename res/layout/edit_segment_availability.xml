@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.AvailabilityEditSegment app:rowCount="1" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:src="@drawable/ic_availability" android:contentDescription="@string/describe_availability_icon" app:layout_row="0" app:layout_column="0" style="@style/Edit.Icon" />
+    <Spinner android:id="@id/spinner" android:layout_width="0.0dip" android:prompt="@string/availability_spinner_title" app:layout_row="0" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+</com.android.calendar.event.edit.segment.AvailabilityEditSegment>

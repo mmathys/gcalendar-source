@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.groove.GrooveTimeEditSegment android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="afterDescendants" android:layout_height="wrap_content" app:rowCount="2" app:columnCount="3" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/preference_label" android:gravity="fill_horizontal|center" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_segment_tile_height" android:text="@string/groove_this_session" android:paddingStart="@dimen/edit_segment_horizontal_padding" app:layout_row="0" app:layout_columnSpan="3" />
+    <ImageView android:id="@id/edit_segment_icon" android:src="@drawable/ic_date" android:contentDescription="@string/describe_date_icon" app:layout_row="1" app:layout_column="0" style="@style/Edit.Icon" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="fill_horizontal" android:id="@id/start_date" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_row="1" app:layout_column="1" style="@style/Edit.Text.When" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_row="1" app:layout_column="2" app:layout_gravity="fill">
+        <Button android:textAppearance="@style/TextAppearance.AppCompat" android:layout_gravity="end" android:id="@id/start_time" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/edit_segment_horizontal_padding" android:layout_marginEnd="@dimen/edit_segment_horizontal_padding" style="@style/Edit.Text.When" />
+    </FrameLayout>
+</com.android.calendar.groove.GrooveTimeEditSegment>

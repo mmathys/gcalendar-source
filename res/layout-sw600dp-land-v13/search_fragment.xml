@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/line_separator_horizontal" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/search_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Space android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/search_card" android:background="@drawable/sdw_card_float_tall" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/search_card_top_margin" android:layout_weight="2.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_results" android:background="@color/timely_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/search_no_events_text_size" android:textColor="@color/search_no_results_color" android:id="@id/no_result_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results" />
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView android:id="@id/search_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <Space android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.event.edit.segment.TimelyWhereEditSegment app:rowCount="2" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/edit_segment_icon" android:src="@drawable/ic_location" android:contentDescription="@string/describe_location_icon" style="@style/Edit.Icon" />
+    <com.android.calendar.event.edit.segment.SuggestionEditText android:id="@id/where_title" android:background="@null" android:paddingTop="18.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/edit_location_hint" android:inputType="textCapSentences|textNoSuggestions" android:textAlignment="viewStart" app:layout_row="0" app:layout_rowSpan="1" app:layout_column="1" app:layout_gravity="fill_horizontal" style="@style/Edit.Text.Edit" />
+    <TextView android:id="@id/where_address" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/edit_segment_horizontal_padding" android:layout_marginBottom="18.0dip" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/edit_segment_horizontal_padding" app:layout_row="1" app:layout_rowSpan="1" app:layout_column="1" app:layout_gravity="fill_horizontal" style="@style/Edit.Text.Light" />
+</com.google.android.calendar.event.edit.segment.TimelyWhereEditSegment>

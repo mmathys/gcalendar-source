@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.DescriptionEditSegment android:focusableInTouchMode="false" app:rowCount="1" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/edit_segment_icon" android:src="@drawable/ic_notes" android:contentDescription="@string/describe_notes_icon" style="@style/Edit.Icon" />
+    <EditText android:textColorHint="#ff757575" android:id="@id/edit_segment_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/edit_description_hint" android:textAlignment="viewStart" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Text.Edit" />
+</com.android.calendar.event.edit.segment.DescriptionEditSegment>

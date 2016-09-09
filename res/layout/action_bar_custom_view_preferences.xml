@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/up_arrow" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/up_arrow_padding" android:paddingRight="@dimen/up_arrow_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_arrow_back_grey600_24" />
+    <TextView android:textSize="@dimen/actionbar_title_text_size" android:textColor="@color/actionbar_title_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:src="@drawable/ic_flight" android:contentDescription="@string/describe_flight_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/airlines" style="@style/SmartInfoTitleTextViewI18n" />
+    <com.google.android.calendar.event.view.FormattedTimeOfDayView android:id="@id/departure_time" android:layout_below="@id/airlines" calendar:annotate_location_timezone="@string/no_location_time" calendar:date_format="ShowWeekdayDate" style="@style/SmartInfoDetailTextViewI18n" />
+    <com.google.android.calendar.event.view.ArrivalTimeOfDayView android:id="@id/status" android:layout_below="@id/departure_time" calendar:date_format="ShowTime" style="@style/SmartInfoStatusTextViewPlusI18n" />
+</merge>

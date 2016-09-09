@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/info_segment_single_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/response_prompt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/response_prompt" style="@style/ProposeTimeResponsePrompt" />
+    <TextView android:id="@id/response_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ProposedTimeResponseHint" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <Button android:id="@id/response_yes" android:text="@string/response_yes" style="@style/FlatMaterialButton" />
+    <Button android:id="@id/response_no" android:text="@string/response_no" style="@style/FlatMaterialButton" />
+    <Button android:id="@id/response_maybe" android:text="@string/response_maybe" style="@style/FlatMaterialButton" />
+    <include layout="@layout/event_info_response_follow_up_button" />
+</LinearLayout>

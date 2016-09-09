@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:id="@id/dogfood_feedback_bar" android:visibility="gone" android:layout_weight="0.0" android:importantForAccessibility="noHideDescendants" style="@style/DogfoodFeedbackBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:layout_width="wrap_content" android:text="@string/dogfood_feedback_bar_message" android:layout_weight="1.0" style="@style/TextAppearance.DogfoodFeedbackBar" />
+    <TextView android:gravity="center" android:id="@id/dogfood_feedback_bar_submit" android:layout_width="wrap_content" android:text="@string/dogfood_feedback_bar_action" android:layout_weight="0.0" style="@style/TextAppearance.DogfoodFeedbackBarSubmit" />
+</LinearLayout>

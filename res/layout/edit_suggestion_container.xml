@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/usage_hint_container" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/UsageHint_Content">
+        <LinearLayout android:orientation="vertical" android:id="@id/usage_hint_list" android:paddingBottom="@dimen/usage_hint_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/suggestion_list" android:background="@color/background_color" android:paddingTop="@dimen/suggestion_list_first_item_top_padding" android:focusable="true" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_weight="1.0" />
+</LinearLayout>

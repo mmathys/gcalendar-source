@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.calendar.event.segment.TimelyWhenSegment android:id="@id/when" style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.NotesSegment android:id="@id/notes" style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.MultiCalendarSegment android:id="@id/holiday" style="@style/InfoSegmentI18n" />
+</merge>

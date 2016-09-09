@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <com.google.android.calendar.event.segment.FoodInfoSegment android:id="@id/reservation_info" style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.DetailsLinkSegment android:id="@id/reservation_details" style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.SmartMailAddressSegment android:id="@id/where" calendar:show_place_name="false" style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.ContactSegment android:id="@id/contact" style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.ConfirmationSegment android:id="@id/confirmation" style="@style/ClickableSegmentI18n" />
+    <com.android.calendar.event.segment.ReminderSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.VisibilitySegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.CalendarSegment style="@style/InfoSegmentI18n" />
+</merge>

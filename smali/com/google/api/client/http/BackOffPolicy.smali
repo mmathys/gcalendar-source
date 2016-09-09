@@ -1,0 +1,24 @@
+.class public interface abstract Lcom/google/api/client/http/BackOffPolicy;
+.super Ljava/lang/Object;
+.source "BackOffPolicy.java"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# virtual methods
+.method public abstract getNextBackOffMillis()J
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method public abstract isBackOffRequired(I)Z
+.end method
+
+.method public abstract reset()V
+.end method

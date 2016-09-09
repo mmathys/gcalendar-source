@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/info_segment_single_height" style="@style/ResponseMainMultiActionI18n"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <Button android:id="@id/task_snooze" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/task_snooze_label" style="@style/ResponsePaddedButtonI18n" />
+    <Button android:id="@id/task_action" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/action_mark_as_done" style="@style/ResponsePaddedButtonI18n" />
+</LinearLayout>

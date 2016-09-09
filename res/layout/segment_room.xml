@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_room" android:contentDescription="@string/describe_room_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/room_layout" style="@style/InfoTitleTextViewI18n" />
+</merge>

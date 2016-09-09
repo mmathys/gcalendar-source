@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.ColorEditSegment app:rowCount="1" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/color_icon" android:contentDescription="@string/describe_event_color_icon" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill_vertical" style="@style/Edit.Icon.Color" />
+    <Spinner android:id="@id/color_spinner" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" app:layout_row="0" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+</com.android.calendar.event.edit.segment.ColorEditSegment>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/speed_dial_event_container" style="@style/SpeedDialEventContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/speed_dial_title" android:text="@string/event" android:contentDescription="@string/accessibility_speeddial_event" style="@style/SpeedDialEventTitle" />
+    <ImageView android:id="@id/speed_dial_icon" android:src="@drawable/speed_dial_event_button_rotate" android:contentDescription="@string/empty_description" style="@style/SpeedDialEventIcon" />
+</LinearLayout>

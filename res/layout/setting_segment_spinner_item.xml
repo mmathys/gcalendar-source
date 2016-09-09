@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text" android:paddingTop="@dimen/body_top_padding" android:paddingRight="18.0dip" android:paddingBottom="@dimen/body_bottom_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="18.0dip" style="@style/Setting" />
+    <ImageView android:id="@id/checkmark" style="@style/Setting.Checkmark" />
+</LinearLayout>

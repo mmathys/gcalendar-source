@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_notification" android:contentDescription="@string/describe_notification_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/primary_text" style="@style/InfoTitleTextViewI18n" />
+    <TextView android:id="@id/secondary_text" android:paddingBottom="@dimen/info_segment_detail_text_extend_padding" android:layout_below="@id/primary_text" style="@style/InfoDetailTextViewI18n" />
+</merge>

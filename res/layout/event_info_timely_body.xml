@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <com.android.calendar.event.segment.WhenSegment style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.TimelyLocationSegment android:id="@id/where" calendar:show_place_name="true" style="@style/ClickableSegmentI18n" />
+    <com.android.calendar.event.segment.RoomSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.RelatedContactsSegment style="@style/ContainerSegmentI18n" />
+    <com.android.calendar.event.segment.ReminderSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.HangoutSegment style="@style/ClickableSegmentI18n" />
+    <com.android.calendar.event.segment.JoinByPhoneSegment style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.GooglePlusSegment style="@style/ClickableSegmentI18n" />
+    <com.android.calendar.event.segment.GuestSegment style="@style/ContainerSegmentI18n" />
+    <com.android.calendar.event.segment.DescriptionSegment style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.AttachmentsSegment style="@style/ContainerSegmentI18n" />
+    <com.android.calendar.event.segment.VisibilitySegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.CalendarSegment style="@style/InfoSegmentI18n" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:src="@drawable/ic_event" android:contentDescription="@string/describe_event_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/event" style="@style/SmartInfoTitleTextViewI18n" />
+    <com.google.android.calendar.event.view.FormattedSpanOfDayView android:id="@id/event_time" android:layout_below="@id/event" calendar:date_format="ShowWeekdayDateTime" style="@style/SmartInfoDetailTextViewI18n" />
+</merge>

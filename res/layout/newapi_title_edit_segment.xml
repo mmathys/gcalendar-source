@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/ripple_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignBottom="@id/titlesegment_content_wrapper" android:layout_alignParentTop="true" />
+        <FrameLayout android:id="@id/titlesegment_content_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.calendar.newapi.segment.title.TitleEditText android:id="@id/title_edit_text" android:background="@null" android:layout_marginTop="@dimen/edit_title_text_margin_top" android:hint="@string/edit_title_hint" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:layout_marginStart="@dimen/edit_title_text_margin_start" android:layout_marginEnd="@dimen/edit_title_text_margin_end" style="@style/NewEditTitleText" />
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

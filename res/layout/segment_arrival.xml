@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/airport" style="@style/SmartInfoTitleTextViewI18n" />
+    <com.google.android.calendar.event.view.ArrivalTimeOfDayView android:id="@id/arrival_time" android:layout_below="@id/airport" calendar:date_format="ShowTime" style="@style/SmartInfoDetailTextViewI18n" />
+    <TextView android:id="@id/terminal" android:layout_below="@id/arrival_time" style="@style/SmartInfoDetailTextViewPlusI18n" />
+    <TextView android:id="@id/gate" android:layout_below="@id/terminal" style="@style/SmartInfoDetailTextViewPlusI18n" />
+</merge>

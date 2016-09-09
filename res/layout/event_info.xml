@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/event_info_loading_msg" layout="@layout/event_info_loading" />
+    <TextView android:gravity="center" android:id="@id/event_info_error_msg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/event_not_found" />
+    <FrameLayout android:id="@id/event_info_view" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/event_info_screen" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/event_scroll" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.android.calendar.event.segment.InfoSegmentGroup android:orientation="vertical" android:id="@id/event_info" android:paddingTop="@dimen/info_scroll_padding_top" android:paddingBottom="@dimen/info_scroll_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+            <include android:id="@id/event_info_actions" layout="@layout/event_info_actions" />
+        </LinearLayout>
+        <include layout="@layout/event_info_buttons" />
+        <include layout="@layout/more_options_panel" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.calendar.event.segment.FlightInfoSegment android:id="@id/flight_info" style="@style/InfoSegmentI18n" />
+    <com.google.android.calendar.event.segment.DepartureSegment android:id="@id/departure" style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.ArrivalSegment android:id="@id/arrival" style="@style/ClickableSegmentI18n" />
+    <com.google.android.calendar.event.segment.ConfirmationSegment android:id="@id/confirmation" style="@style/ClickableSegmentI18n" />
+    <com.android.calendar.event.segment.ReminderSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.VisibilitySegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.CalendarSegment style="@style/InfoSegmentI18n" />
+</merge>

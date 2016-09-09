@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/timely_info_headline_image_height" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <TextView android:id="@id/attribute" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/timely_attribution_height" android:layout_alignParentBottom="true" style="@style/InfoHeadlineAttributionI18n" />
+    <TextView android:id="@id/title" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/attribute" android:layout_alignParentBottom="true" style="@style/InfoHeadlineTitle" />
+</RelativeLayout>

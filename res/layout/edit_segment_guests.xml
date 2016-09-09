@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.GuestEditSegment android:focusableInTouchMode="false" app:rowCount="3" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/guests_icon" android:src="@drawable/ic_guests" android:contentDescription="@string/describe_guests_icon" app:layout_rowSpan="2" style="@style/Edit.Icon" />
+    <com.android.calendar.event.edit.segment.ChipCollectionEditText android:id="@id/guest_input" android:layout_width="0.0dip" android:hint="@string/add_guests_hint" android:inputType="textCapSentences|textEmailAddress|textMultiLine|textNoSuggestions" android:imeOptions="actionDone" android:textAlignment="viewStart" app:layout_row="0" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Text.Edit" />
+    <include android:id="@id/guests_can_invite" android:layout_marginBottom="18.0dip" app:layout_row="1" app:layout_column="1" app:layout_gravity="fill_horizontal" layout="@layout/labeled_switch" />
+    <Button android:gravity="center_vertical" android:id="@id/find_a_time_button" android:background="?android:selectableItemBackground" android:visibility="gone" android:text="@string/find_a_time_button_label" android:textAlignment="viewStart" app:layout_row="2" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Text.FindTimeButton" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/find_a_time_button_left_padding" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/guest_segment_find_time_button_height" android:importantForAccessibility="no" app:layout_row="2" app:layout_column="0" app:layout_gravity="fill" />
+</com.android.calendar.event.edit.segment.GuestEditSegment>

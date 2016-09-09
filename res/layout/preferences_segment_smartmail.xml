@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.timely.settings.SmartmailPreferenceEditSegment android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="afterDescendants" android:importantForAccessibility="no" app:rowCount="5" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/account_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preference_edit_color_header" android:textAlignment="viewStart" app:layout_row="0" app:layout_column="0" style="@style/Preference.GroupHeader" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/smart_mail_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="23.0dip" android:layout_marginEnd="24.0dip" app:layout_row="1" app:layout_column="0">
+        <TextView android:id="@id/smart_mail_switch_label" android:paddingTop="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_automatically" android:layout_weight="1.0" style="@style/Preference.Edit.Label" />
+        <Switch android:layout_gravity="center|right" android:id="@id/add_automatically_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/visibility_label" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preferences_edit_visibility" app:layout_row="2" app:layout_column="0" style="@style/Preference.Edit.Label" />
+    <Spinner android:id="@id/visibility_spinner" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="-11.0dip" android:layout_marginBottom="3.0dip" android:paddingStart="24.0dip" android:layout_marginStart="0.0dip" app:layout_row="3" app:layout_column="0" style="@style/Edit.Spinner" />
+    <View app:layout_row="4" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Edit.Divider"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.google.android.calendar.timely.settings.SmartmailPreferenceEditSegment>

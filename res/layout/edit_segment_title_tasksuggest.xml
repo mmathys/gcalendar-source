@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.event.edit.segment.TaskSuggestEditSegment android:rowCount="1" android:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.calendar.event.edit.segment.SuggestionEditText android:textAppearance="@style/TaskSuggestTextAppearance" android:id="@id/input" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:textAlignment="viewStart" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/QuickCreateEdit_Title" />
+</com.google.android.calendar.event.edit.segment.TaskSuggestEditSegment>

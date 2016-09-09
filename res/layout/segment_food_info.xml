@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:src="@drawable/ic_restaurant" android:contentDescription="@string/describe_restaurant_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/place_name" style="@style/SmartInfoTitleTextViewI18n" />
+    <com.google.android.calendar.event.view.FormattedTimeOfDayView android:id="@id/reservation_time" android:layout_below="@id/place_name" calendar:date_format="ShowWeekdayDateTime" style="@style/SmartInfoDetailTextViewI18n" />
+</merge>

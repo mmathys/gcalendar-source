@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/clear_search" android:paddingLeft="@dimen/home_icon_padding" android:paddingRight="@dimen/home_icon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_clear" android:contentDescription="@string/accessibility_clear_search" style="@style/SearchClearButton" />
+    <EditText android:textSize="@dimen/search_text_size" android:textColor="@color/search_text" android:textColorHint="@color/search_hint_text" android:id="@id/search_edit_text" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/search_edit_text_padding" android:layout_marginRight="@dimen/search_edit_text_padding" android:hint="@string/search_hint" android:inputType="text" android:imeOptions="actionSearch" style="@style/SearchEditText" />
+</RelativeLayout>

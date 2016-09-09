@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/convert_event_to_reminder_promo" android:background="@color/convert_event_to_reminder_promo_background" android:paddingTop="@dimen/suggestion_list_first_item_top_padding" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.bitmap.view.BitmapDrawableImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_reminders_alt_googblue_24" android:scaleType="center" android:layout_marginStart="@dimen/suggestion_icon_left_padding" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suggestion_item_margin_top" android:layout_marginBottom="@dimen/suggestion_item_margin_bottom" android:layout_marginStart="16.0dip">
+        <TextView android:textAppearance="@style/ConvertEventToReminderPromo_Title" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/convert_event_to_reminder_promo_title" style="@style/SuggestionDropdown_Label" />
+        <TextView android:textAppearance="@style/ConvertEventToReminderPromo_Description" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/convert_event_to_reminder_promo_desc" android:singleLine="false" style="@style/SuggestionDropdown_Label" />
+    </LinearLayout>
+</LinearLayout>

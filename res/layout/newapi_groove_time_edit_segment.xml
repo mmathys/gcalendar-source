@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.newapi.segment.time.GrooveTimeEditSegment android:paddingTop="0.0dip" android:contentDescription="@string/describe_date_icon" style="@style/NewEditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.calendar.newapi.view.HeadlineTileView app:tile_text="@string/groove_this_session" style="@style/HeadlineTile" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|center" android:id="@id/date_icon" android:src="@drawable/ic_date" style="@style/Edit.Icon" />
+            <Button android:layout_gravity="start|center" android:id="@id/date_text" android:layout_width="fill_parent" style="@style/Edit.TextButton" />
+            <Button android:id="@id/time_text" style="@style/Edit.EndTextButton" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.calendar.newapi.segment.time.GrooveTimeEditSegment>

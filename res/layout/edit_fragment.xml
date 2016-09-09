@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.EditFragmentLayout android:background="@color/timely_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/edit_fragment_header" layout="@layout/edit_fragment_header" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.calendar.editor.EditorScrollView android:id="@id/editor_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.android.calendar.editor.EditorSegmentsWrapper android:id="@id/editor_segments_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/segments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:id="@id/fullscreen_auxiliary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.android.calendar.editor.EditorSegmentsWrapper>
+            </com.android.calendar.editor.EditorScrollView>
+            <include layout="@layout/loading_view" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.calendar.event.edit.EditFragmentLayout>

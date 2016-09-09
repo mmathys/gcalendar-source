@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/value" style="@style/InfoTitleTextViewI18n" />
+    <TextView android:id="@id/detail" android:layout_below="@id/value" style="@style/InfoDetailTextViewI18n" />
+</merge>

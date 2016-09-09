@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/calendar_name" style="@style/Preference.Option" />
+    <ImageView android:id="@id/checkmark" style="@style/Setting.Checkmark" />
+</LinearLayout>

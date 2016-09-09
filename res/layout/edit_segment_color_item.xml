@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/edit_segment_tile_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/color_icon" android:paddingRight="@dimen/edit_segment_horizontal_padding" android:paddingEnd="@dimen/edit_segment_horizontal_padding" style="@style/Edit.Icon" />
+    <TextView android:gravity="center_vertical" android:id="@id/color_text" android:paddingRight="18.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" android:layout_weight="1.0" android:paddingEnd="18.0dip" app:layout_gravity="center_vertical" style="@style/Edit.Text" />
+    <ImageView android:id="@id/checkmark" style="@style/Edit.Checkmark.Edit" />
+</LinearLayout>

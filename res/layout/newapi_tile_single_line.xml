@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="start|center" android:minHeight="@dimen/multiline_tile_min_line_height" style="@style/View.Text.Multiline.First"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

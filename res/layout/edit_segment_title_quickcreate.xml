@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.event.edit.segment.QuickCreateEditSegment android:focusableInTouchMode="false" app:rowCount="2" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.calendar.event.edit.segment.SuggestionEditText android:textAppearance="@style/QuickCreateTextAppearance" android:id="@id/input" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:textAlignment="viewStart" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill" style="@style/QuickCreateEdit_Title" />
+    <ImageView android:id="@id/usage_hint_pointer" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="15.0dip" android:src="@drawable/usage_hint_pointer" android:tint="@color/usage_hint_background" app:layout_row="0" app:layout_column="0" app:layout_gravity="bottom|center|left" />
+</com.google.android.calendar.event.edit.segment.QuickCreateEditSegment>

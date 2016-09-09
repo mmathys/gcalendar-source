@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/info_action_edit" android:descendantFocusability="afterDescendants" android:layout_width="@dimen/info_edit_size" android:layout_height="@dimen/info_edit_size" android:layout_marginTop="@dimen/info_edit_margin_top" style="@style/InfoHeadlineEditI18n"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/info_action_edit_hit" android:background="@drawable/sdw_fab_rest" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/edit_label" />
+    <ImageView android:layout_gravity="center" android:background="@android:color/transparent" android:focusable="true" android:layout_width="@dimen/info_icon_size" android:layout_height="@dimen/info_icon_size" android:src="@drawable/ic_edit_white" android:contentDescription="@string/empty_description" style="@style/NotImportantForAccessibility" />
+</FrameLayout>

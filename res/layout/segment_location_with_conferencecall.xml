@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_location" android:contentDescription="@string/describe_location_icon" style="@style/InfoSegmentLabelIcon" />
+    <com.android.calendar.event.ConferenceCallView android:id="@id/value" style="@style/InfoTitleTextViewI18n" />
+</merge>

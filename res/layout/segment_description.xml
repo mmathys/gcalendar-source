@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_notes" android:contentDescription="@string/describe_notes_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:autoLink="all" android:id="@id/value" android:textIsSelectable="true" style="@style/InfoTitleTextViewI18n" />
+</merge>

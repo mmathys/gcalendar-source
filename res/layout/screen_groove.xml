@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <com.android.calendar.event.segment.WhenSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.groove.GrooveInfoSegment android:id="@id/groove_info" style="@style/InfoSegmentI18n" />
+    <com.android.calendar.groove.GrooveNotificationsSegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.VisibilitySegment style="@style/InfoSegmentI18n" />
+    <com.android.calendar.event.segment.CalendarSegment style="@style/InfoSegmentI18n" />
+</merge>

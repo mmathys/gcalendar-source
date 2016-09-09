@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/speed_dial_fade" />
+    <RelativeLayout android:gravity="end|bottom|center" android:id="@id/speed_dial_expanded_contents" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/speed_dial_groove_view" />
+        <include layout="@layout/speed_dial_task_view" />
+        <include layout="@layout/speed_dial_event_view" />
+    </RelativeLayout>
+</merge>

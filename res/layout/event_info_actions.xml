@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:gravity="top" android:id="@id/top_of_frame" android:background="@color/event_info_action_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:id="@id/event_info_commands" android:layout_width="fill_parent" android:layout_height="@dimen/info_action_bar_height" />
+</LinearLayout>

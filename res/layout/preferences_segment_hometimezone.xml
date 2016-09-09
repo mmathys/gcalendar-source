@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.timely.settings.segments.HomeTimezoneEditSegment android:importantForAccessibility="no" app:rowCount="4" app:columnCount="1" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_row="0" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Preference.Edit.Label">
+        <TextView android:textColor="@color/preference_label" android:id="@id/use_hometimezone_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/preference_edit_use_device_timezone_label" android:layout_weight="1.0" />
+        <Switch android:id="@id/device_timezone_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:id="@id/home_timezone_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preference_edit_device_timezone_header" app:layout_row="1" app:layout_column="0" style="@style/Preference.Edit.Label" />
+    <TextView android:gravity="fill" android:id="@id/home_timezone" android:paddingLeft="24.0dip" android:paddingBottom="21.0dip" app:layout_row="2" app:layout_column="0" app:layout_gravity="fill" style="@style/Preference.Edit.Value" />
+    <View app:layout_row="3" app:layout_column="0" app:layout_gravity="fill_horizontal" style="@style/Edit.Divider"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.android.calendar.timely.settings.segments.HomeTimezoneEditSegment>

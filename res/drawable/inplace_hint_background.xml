@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="-16.0dip" android:bottom="32.0dip">
+        <bitmap android:gravity="fill" android:src="@drawable/usage_hint_pointer" />
+    </item>
+    <item android:top="32.0dip" android:right="-16.0dip">
+        <rotate android:fromDegrees="180.0" android:toDegrees="180.0">
+            <bitmap android:gravity="fill" android:src="@drawable/usage_hint_pointer" />
+        </rotate>
+    </item>
+</layer-list>

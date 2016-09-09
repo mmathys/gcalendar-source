@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_hotel" android:contentDescription="@string/describe_hotel_icon" style="@style/InfoSegmentLabelIcon" />
+    <TextView android:id="@id/name" style="@style/SmartInfoTitleTextViewI18n" />
+    <TextView android:id="@id/address" android:layout_below="@id/name" style="@style/SmartInfoDetailTextViewI18n" />
+</merge>

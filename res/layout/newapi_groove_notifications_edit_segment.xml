@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.newapi.segment.notification.GrooveNotificationEditSegment android:contentDescription="@string/describe_notification_icon" style="@style/Material.List"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.calendar.newapi.view.TextTileView android:id="@id/notification_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tile_icon="@drawable/ic_notification" app:tile_treat_as_button="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/smart_notification_tile" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/edit_segment_list_top_padding" android:paddingBottom="@dimen/edit_segment_list_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_segment_tile_height">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_segment_tile_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/edit_segment_keyline_2">
+                <TextView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/groove_smart_notifications_label" android:textAlignment="viewStart" style="@style/Edit.Text" />
+                <TextView android:layout_gravity="start" android:text="@string/smart_notifications_description" android:textAlignment="viewStart" android:paddingStart="0.0dip" style="@style/View.Text.Multiline.Second" />
+            </LinearLayout>
+            <com.android.calendar.newapi.segment.common.NinjaSwitch android:layout_gravity="top" android:id="@id/switch_view" android:layout_width="wrap_content" android:layout_height="@dimen/edit_segment_two_line_switch_height" android:layout_weight="0.0" android:paddingStart="@dimen/edit_segment_horizontal_padding" android:paddingEnd="@dimen/edit_segment_horizontal_padding" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.calendar.newapi.segment.notification.GrooveNotificationEditSegment>

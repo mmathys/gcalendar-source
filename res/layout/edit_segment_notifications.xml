@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.segment.NotificationEditSegment android:focusable="false" android:descendantFocusability="afterDescendants" android:rowCount="2" android:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:src="@drawable/ic_notification" android:contentDescription="@string/describe_notification_icon" app:layout_row="0" app:layout_rowSpan="2" app:layout_column="0" style="@style/Edit.Icon" />
+    <LinearLayout android:orientation="vertical" android:id="@id/notification_layout" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_row="0" app:layout_column="1" app:layout_gravity="fill_horizontal|center" />
+    <TextView android:gravity="center_vertical" android:id="@id/add_notification_button" android:background="?android:selectableItemBackground" android:paddingLeft="0.0dip" android:paddingRight="@dimen/edit_segment_horizontal_padding" android:focusable="true" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" android:text="@string/add_notification_label" android:paddingStart="0.0dip" android:paddingEnd="@dimen/edit_segment_horizontal_padding" app:layout_row="1" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Text.Light" />
+</com.android.calendar.event.edit.segment.NotificationEditSegment>

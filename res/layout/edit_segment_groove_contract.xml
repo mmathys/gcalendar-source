@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.groove.GrooveContractEditSegment app:rowCount="4" app:columnCount="2" style="@style/EditSegmentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/preference_label" android:gravity="fill_horizontal|center" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edit_segment_tile_height" android:text="@string/groove_your_goal" android:paddingStart="@dimen/edit_segment_horizontal_padding" app:layout_row="0" app:layout_columnSpan="2" />
+    <ImageView android:src="@drawable/quantum_ic_flag_grey600_24" android:contentDescription="@string/describe_groove_contract_icon" app:layout_row="1" app:layout_column="0" style="@style/Edit.Icon" />
+    <Spinner android:gravity="center_vertical" android:id="@id/button_frequency" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" android:prompt="@string/frequency_spinner_title" app:layout_row="1" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+    <Spinner android:gravity="center_vertical" android:id="@id/button_duration" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" android:prompt="@string/duration_spinner_title" app:layout_row="2" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat" android:textSize="@dimen/edit_text_size" android:gravity="center_vertical" android:id="@id/button_preferred_times" android:layout_width="0.0dip" android:layout_height="@dimen/edit_segment_tile_height" app:layout_row="3" app:layout_column="1" app:layout_gravity="fill" style="@style/Edit.Spinner" />
+</com.android.calendar.groove.GrooveContractEditSegment>

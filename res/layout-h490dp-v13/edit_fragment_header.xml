@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.event.edit.EditHeaderLayout android:orientation="horizontal" android:background="@color/edit_text_light" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ripple_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignBottom="@id/headline_content_wrapper" android:layout_alignParentTop="true" />
+    <View android:layout_gravity="top" android:id="@id/status_bar_protection" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:id="@id/headline_content_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/status_bar_protection">
+        <ImageButton android:id="@id/cancel" android:focusable="true" android:layout_width="@dimen/edit_segment_icon_width" android:layout_height="@dimen/edit_header_bar_height" android:src="@drawable/ic_cancel_white" android:layout_alignParentTop="true" android:contentDescription="@string/edit_event_cancel" android:layout_alignParentStart="true" style="@style/Edit.HeaderButton" />
+        <com.android.calendar.event.edit.EditSaveButton android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/save" android:focusable="true" android:layout_height="@dimen/edit_header_bar_height" android:layout_alignParentTop="true" android:textAllCaps="true" android:layout_alignParentEnd="true" style="@style/Edit.HeaderButton" />
+        <LinearLayout android:orientation="vertical" android:id="@id/header_segments" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cancel" />
+    </RelativeLayout>
+</com.android.calendar.event.edit.EditHeaderLayout>

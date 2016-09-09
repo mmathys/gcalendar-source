@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/find_time_2_suggestion_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/FindTimeSuggestionFragmentToolbar" />
+    <include layout="@layout/dogfood_feedback_bar" />
+    <ListView android:id="@android:id/list" android:background="@color/quantum_white_100" android:paddingBottom="@dimen/find_time_2_suggestion_list_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/find_time_progress_text_bottom_margin" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/find_time_progress_bar_width" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <LinearLayout android:id="@android:id/empty" android:layout_weight="1.0" android:contentDescription="@string/accessibility_find_time_empty_list" style="@style/EmptyStateContainer">
+        <TextView android:id="@id/empty_list_view_title" android:text="@string/find_time_empty_list_label_title" style="@style/EmptyStateLabelTitle" />
+        <TextView android:id="@id/empty_list_view_subtitle" android:text="@string/find_time_empty_list_label_body" style="@style/EmptyStateLabelBody" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="start" android:id="@id/footer" android:layout_weight="0.0" style="@style/FooterBarContainer">
+        <LinearLayout android:orientation="horizontal" android:id="@id/new_filters_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/timeframe_duration" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/FilterNewFooterText" />
+            <TextView android:id="@id/timeframe_duration_change_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/find_a_time_bottom_filter_change" android:layout_weight="0.0" style="@style/FilterNewFooterButton" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
